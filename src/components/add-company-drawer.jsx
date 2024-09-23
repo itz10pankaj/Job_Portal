@@ -79,6 +79,7 @@ const AddCompanyDrawer = ({ fetchCompanies }) => {
 
                     {/* Company Logo */}
                     <Input
+                        placeholder="Only png and jpeg"
                         type="file"
                         accept="image/*"
                         className=" file:text-gray-500"
